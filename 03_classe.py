@@ -21,7 +21,7 @@ class Criptografia:
             elif letra.upper() == 'O':
                 frase_criptografada += '0'
             elif letra.upper() == 'U':
-                frase_criptrograda += '8'
+                frase_criptografada += '8'
             else:
                 frase_criptografada += letra
         return frase_criptografada
